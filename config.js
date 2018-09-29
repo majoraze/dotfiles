@@ -12,8 +12,6 @@ module.exports = {
     // 'fortune',
     'readline', // ensure gawk gets good readline
     'gawk',
-    // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
-    'gifsicle',
     'gnupg',
     // Install GNU `sed`, overwriting the built-in `sed`
     // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
@@ -41,50 +39,47 @@ module.exports = {
     'vim --with-override-system-vi',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri',
+    'git',
+    'git-lfs',
+    'rename',
+    'tree'
   ],
   cask: [
-    //'adium',
-    //'amazon-cloud-drive',
-    //'atom',
-    // 'box-sync',
-    //'comicbooklover',
-    //'diffmerge',
     'docker', // docker for mac
-    //'dropbox',
-    //'evernote',
-    'flux',
     'gpg-suite',
-    //'ireadfast',
     'iterm2',
-    'little-snitch',
-    'macbreakz',
-    'micro-snitch',
-    'signal',
-    //'macvim',
     'sizeup',
-    //'sketchup',
     'slack',
     'the-unarchiver',
-    //'torbrowser',
-    //'transmission',
+    'transmission',
     'visual-studio-code',
-    //'vlc',
-    'xquartz'
+    'vlc',
+    'xquartz',
+    'google-chrome',
+    'franz',
+    'spotify',
+    'skype',
+    'studio-3t',
+    'adobe-creative-cloud',
+    'google-photos-backup-and-sync',
+    'alfred',
+    'postman',
+    'notational-velocity'
   ],
   gem: [
   ],
   npm: [
-    'antic',
-    'buzzphrase',
-    'eslint',
-    'instant-markdown-d',
+    //'antic',
+    //'buzzphrase',
+    //'eslint',
+    //'instant-markdown-d',
     // 'generator-dockerize',
     // 'gulp',
-    'npm-check-updates',
-    'prettyjson',
-    'trash',
-    'vtop'
+    //'npm-check-updates',
+    //'prettyjson',
+    //'trash',
+    //'vtop'
     // ,'yo'
   ]
 };
